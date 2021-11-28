@@ -1,0 +1,36 @@
+* {margin: 0; padding:  0}
+body{
+background:blue;
+width: 530px;
+margin: auto;
+
+
+}
+
+#calosc{
+background:green;
+width: 500px;
+height:600px;
+border-top:8px solid white;
+font: 8pt tahoma;
+margin-bottom:5px;
+}
+#layout{background: url(gora.gif);
+width:500px;
+height:4px;
+margin-top:10px;
+background:url(gora.gif);
+}
+#top{background: url(top2.gif);
+width:470px;
+height:110px;
+margin-left:15px;
+font: 8pt tahoma;
+}
+#tresc{
+font: 8pt tahoma;
+color:black;
+align:justify;
+margin-left:15px;
+width:350px;
+border-right:1px solid #B0B0B0;

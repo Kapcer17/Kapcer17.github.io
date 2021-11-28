@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" action="https://sklep.przelewy24.pl/zakup.php">
+        <input type="hidden" name="z24_id_sprzedawcy" value="TWOJ_ID">
+        <input type="hidden" name="z24_crc" value="KLUCZ_ZAKUPU">
+        <input type="hidden" name="z24_return_url" value="TWOJASTRONA.PL">
+        <input type="hidden" name="z24_language" value="pl">
+        <table>
+        <tr>
+        <td align="right">Nazwa produktu:</td>
+        <td>
+        <input type="text" name="z24_nazwa" value="Opłata za rezerwację NR: 04/234/A3953">
+        </td>
+        </tr>
+        <tr>
+        <td align="right">Dodatkowy opis:</td>
+        <td>
+        <textarea name="z24_opis" style="width:250px">Dodatkowe informacje...</textarea>
+        </td>
+        </tr>
+        <tr>
+        <td align="right">Do zapłaty:</td>
+        <td><input type="text" name="z24_kwota"></td><!--KWOTA W GROSZACH-->
+        </tr>
+        </table>
+        <input type="submit" value="zapłać z przelewy24.pl">
+    </form> 
+    
+</body>
+</html>

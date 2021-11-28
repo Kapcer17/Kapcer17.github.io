@@ -1,0 +1,31 @@
+html {
+    background-color:lightblue;
+}
+ul {
+    background-color:aqua;
+}
+.sklep {
+    background-color:aquamarine;
+}
+div {
+    background-color:aquamarine;
+}
+.prod {
+    height: 350px;
+    width: 500px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.drugi {
+    text-align: center;
+}

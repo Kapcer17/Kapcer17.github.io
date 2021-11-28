@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <title>Frontend - wersja Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <header>
+    <h1>Nasza strona - Frontend</h1>
+  </header>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">kurs Frontend</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="../index.html">Strona domowa</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="#O mnie">O mnie</a></li>
+      <li><a href="przycisk.html">Testowy skrypt</a></li>
+	  <li class="active"><a href="index.html">Wersja bootstrap</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-5">
+      <h2>Nasza strona - Frontend</h2>
+	  <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="../filmik/2.mp4" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h3>Tutaj jest obrazek</h3>
+	  <img src="../obrazki/1.jpg" class="img-responsive" alt="Responsive image">
+    </div>
+    <div class="col-sm-4">
+    <h3>To jest piosenka</h3>
+    <audio src="../muzyka/3.mp3" controls></audio>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
